@@ -73,8 +73,6 @@ class weights_loader(loader):
 
         if walker.path is not None:
             assert walker.offset == walker.size, \
-            'expect {} bytes, found {}'.format(
-                walker.offset, walker.size)
             print('Successfully identified {} bytes'.format(
                 walker.offset))
 
